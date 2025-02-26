@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> PCTE Events On Air </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="home.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i> <img src="img/logo 2.png" alt="" width="140px" height="45px"> </i> EVENTS</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="home.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="lectures.html" class="dropdown-item">Guest Lectures</a>
+                        <a href="visits.html" class="dropdown-item">Industrial Visits</a>
+                    </div>
+                </div>
+
+                <a href="registration.html" class="nav-item nav-link">Registration</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="about.html" class="dropdown-item">About</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="registration.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Book Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+<!-- Header Start -->
+<div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <h1 class="display-3 text-white animated slideInDown">Guest Lectures</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="#">Events</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Guest Lectures</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- Calendar Starts -->
+<div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class="mb-5">Upcoming Events Calendar</h1>
+    </div>
+    <div class="calendar-container">
+        <div class="calendar">
+            <div class="month">February 2025</div>
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+            <div class="days">
+                <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="day">1</div>
+                <div class="day">2</div><div class="day">3</div><div class="day event-day">4 <div class="event-tooltip">Tekki Web Solution</div> </div><div class="day">5</div><div class="day">6</div><div class="day">7</div><div class="day">8</div>
+                <div class="day">9</div><div class="day">10</div><div class="day">11</div><div class="day">12</div><div class="day event-day">13 <div class="event-tooltip">Net Solutions Pvt ltd.</div> </div><div class="day">14</div><div class="day">15</div>
+                <div class="day">16</div><div class="day">17</div><div class="day">18</div><div class="day">19</div><div class="day">20</div><div class="day">21</div><div class="day">22</div>
+                <div class="day">23</div><div class="day">24</div><div class="day event-day">25 <div class="event-tooltip">ANSH InfoTech</div> </div><div class="day">26</div><div class="day">27</div><div class="day">28</div>
+            </div>
+        </div>
+        <div class="calendar">
+            <div class="month">March 2025</div>
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+            <div class="days">
+                <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="day">1</div>
+                <div class="day">2</div><div class="day">3</div><div class="day">4</div><div class="day">5</div><div class="day">6</div><div class="day event-day">7 <div class="event-tooltip">Mr. Montek Singh Ahluwalia</div> </div><div class="day">8</div>
+                <div class="day">9</div><div class="day">10</div><div class="day">11</div><div class="day">12</div><div class="day">13</div><div class="day">14
+            </div><div class="day">15</div><div class="day">16</div><div class="day">17</div><div class="day event-day">18 <div class="event-tooltip"> Shri Gaur Gopal Das Ji </div> </div><div class="day">20</div><div class="day">21</div><div class="day">22</div><div class="day">23</div><div class="day">24</div>
+            <div class="day">25</div><div class="day">26</div><div class="day">27</div><div class="day">28</div><div class="day event-day">29 <div class="event-tooltip">Mr. Salil Parekh</div> </div>
+            <div class="day">30</div><div class="day">31</div>
+            
+        </div>
+        </div>
+        <div class="calendar">
+            <div class="month">April 2025</div>
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+            <div class="days">
+                <div class="empty"></div><div class="empty"></div><div class="day event-day">1 <div class="event-tooltip">Mrs. Heena Kalra</div> </div><div class="day">2</div><div class="day">3</div>
+                <div class="day">4</div><div class="day">5</div><div class="day">6</div><div class="day">7</div><div class="day">8</div><div class="day">9</div>
+                <div class="day event-day">10 <div class="event-tooltip">WebDew  Pvt ltd.</div> </div><div class="day">11</div><div class="day">12</div><div class="day">13</div><div class="day">14</div>
+                <div class="day event-day">15 <div class="event-tooltip">NetGains  Pvt ltd.</div> </div><div class="day">16</div><div class="day">17</div><div class="day">18</div><div class="day">19</div><div class="day">20</div><div class="day">21</div><div class="day">22</div><div class="day">23</div><div class="day">24</div><div class="day">25</div><div class="day">26</div><div class="day">27</div><div class="day">28</div><div class="day">29</div><div class="day"></div>
+            </div>
+        </div>
+    </div>
+<!-- Calendar End -->
+
+
+<!-- Courses Start -->
+<div class="container-xxl py-5">
+<div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-primary px-3">Seminar</h6>
+        <h1 class="mb-5">Guest Lectures</h1>
+    </div>
+    <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/img1.png" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="registration.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4"> Mr. Montek Singh Ahluwalia</h5>
+                    <p>Ahluwalia was the first Director of the Independent Evaluation Office. He assumed office on July 9, 2001. Prior to taking up his position at the International Monetary Fund.</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>7 March 2025</small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/img2.png" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="registration.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">Gaur Gopal Das</h5>
+                    <p>Gaur Gopal Das is an Indian Internet celebrity, monk, motivational speaker and former electrical engineer. He is a member of the International Society for Krishna Consciousness</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 18 March 2025 </small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>50 Students</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/img3.png" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="registration.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">Salil Parekh</h5>
+                    <p>Salil Parekh is the current chief executive officer and managing director of Infosys. Parekh took over from interim CEO U B Pravin Rao on 2 January 2018. </p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 29 March 2025</small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Courses End -->
+
+<!-- Courses Start -->
+<div class="container-xxl py-5">
+<div class="container">
+    <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/heena mam.png" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="registration.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4"> Mrs. Heena Kalra</h5>
+                    <p>𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐃𝐢𝐫𝐞𝐜𝐭𝐨𝐫 in 𝐃𝐢𝐯𝐢𝐬𝐢𝐨𝐧 𝐨𝐟 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 & 𝐆𝐫𝐨𝐰𝐭𝐡 for 𝐌𝐞𝐧𝐭𝐨𝐫-𝐌𝐞𝐧𝐭𝐞𝐞 𝐏𝐫𝐨𝐠𝐫𝐚𝐦 at @cgcjhanjeri</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1 April 2025</small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/webdewc.png" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="registration.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">WebDew Pvt ltd.</h5>
+                    <p>webdew is a Full-service Digital Marketing  Agency established in the year 2016. Over the span of years, webdew has grown to a team of 50+ employees in India, UK, and USA.</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 10 April 2025 </small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>50 Students</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/netgains.png" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="registration.html" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">NetGains Pvt ltd.</h5>
+                    <p>Net gains technologies is an emerging business consultant and It services company having expertise in banking, financial, and insurance industry knowledge. </p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 15 April 2025</small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Courses End -->
+
+<!-- Previous Courses Start -->
+<div class="container-xxl py-5">
+<div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-primary px-3">Previous Seminar</h6>
+        <h1 class="mb-5">Guest Lectures</h1>
+    </div>
+    <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/Tekki Web Solution.JPG" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="https://drive.google.com/drive/folders/1Mvr90obBhj1yk4660J3xV0H6k-fTIxnU" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Download Resources</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">Tekki Web Solution</h5>
+                    <p>Tekki Web Solutions is a global custom software development company with expertise in digital transformation & IT consulting services.</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 4 February 2025 </small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/Ishika mam.jpg" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="https://drive.google.com/drive/folders/1Mvr90obBhj1yk4660J3xV0H6k-fTIxnU" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Download Resources</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">Net Solutions Pvt ltd.</h5>
+                    <p>It is a solution provider in the fields of Web development, Web design, Mobile app developments, and analytics.</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 13  February 2025</small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>50 Students</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="course-item bg-light">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid" src="img/Sarbjeet mam.jpeg" alt="">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="https://drive.google.com/drive/folders/1Mvr90obBhj1yk4660J3xV0H6k-fTIxnU" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 30px 30px 30px 30px;">Download Resources</a>
+                    </div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                    <div class="mb-3">
+                        <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>    <small class="fa fa-star text-primary"></small>   <small class="fa fa-star text-primary"></small>  <small class="fa fa-star text-primary"></small>
+                    </div>
+                    <h5 class="mb-4">ANSH InfoTech</h5>
+                    <p>ANSH InfoTech is a Ludhiana-based IT solutions provider offering expertise in data science, artificial intelligence, and cybersecurity.</p>
+                </div>
+                <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i> 25 February 2025</small>
+                    <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Courses End -->
+
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <h5 class="mb-0"> Shrikant Bhatt </h5>
+                    <p>Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0"> I love how the website provides detailed speaker profiles and topics beforehand. It helps in choosing the most relevant lectures. </p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <h5 class="mb-0"> Nice </h5>
+                    <p>Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0"> Signing up for guest lectures is hassle-free. I get instant confirmations and reminders, which is very helpful. </p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <h5 class="mb-0"> Shivansh </h5>
+                    <p>Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0"> I Missed the last guest lecture. But i thankful to the staff that this website provides access to recordings, which is really beneficial for revision. </p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <h5 class="mb-0"> Aman </h5>
+                    <p>Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Booking an industrial visit through this platform is effortless. The itinerary is well-structured, and transport details are clear.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <h5 class="mb-0"> Nitish </h5>
+                    <p>Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Signing up for guest lectures is hassle-free. I get instant confirmations and reminders, which is very helpful.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Campus-1, Jhande, Ferozepur Road, Ludhiana-142021, Punjab, India</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Campus-2, Baddowal, Ferozepur Road, Ludhiana-142021, Punjab, India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+0161 -2888550</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@pcte.edu.in</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/pcteofficial"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/pctegroup/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/c/PCTEGroupofInstitutes"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://in.linkedin.com/school/pcte-ludhiana/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpeg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-6.JPG" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Subscribe to our email</h4>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
